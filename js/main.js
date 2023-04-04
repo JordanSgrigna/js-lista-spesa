@@ -6,6 +6,8 @@ for(let i=0; i<listaDellaSpesa.length; i++){
     console.log((i+1) + ". " + listaDellaSpesa[i])
 }
 
+
+
 let contatore = 0;
 
 while(contatore < listaDellaSpesa.length){

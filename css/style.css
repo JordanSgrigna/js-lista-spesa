@@ -3,3 +3,62 @@
     padding: 0;
     margin: 0;
 }
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.j-content-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.title-container{
+    height: 55px;
+    width: 450px;
+    line-height: 55px;
+    vertical-align: middle;
+    background-color: rgba(84, 158, 10, 0.603);
+}
+
+
+#title{
+    color: white;
+}
+
+p{
+    width: 400px;
+}
+
+.list-container{
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.form-w{
+    width: 400px;
+}
+
+
+.form-container{
+    height: 30px;
+}
+
+
+.w-80{
+    width: 80%;
+}
+
+
+.h-30{
+    height: 30px;
+}
+
+.w-500{
+    width: 500px;
+}
