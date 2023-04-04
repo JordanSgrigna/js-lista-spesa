@@ -23,67 +23,21 @@
 
       <!-- ADD-TO-THE-LIST FORM -->
       <div class="flex j-content-center mt-2">
-
-        <div class="me-2">
-          <input type="text" class="form-control form-w border rounded border-success" id="" placeholder="Aggiungi un elemento alla lista">
-        </div>
-        
-        <div>
-          <button type="submit" class="btn btn-success mb-3">Aggiungi</button>
-        </div>
-
+        <form class="flex" onsubmit="listGeneration(event)">
+          <div class="me-2">
+            <input type="text" class="form-control form-w border rounded border-success" id="itemInput" placeholder="Aggiungi un elemento alla lista">
+          </div>
+          
+          <div>
+            <button type="submit" class="btn btn-success mb-3">Aggiungi</button>
+          </div>
+        </form>
       </div>
 
       <!--LIST-->
-      <div class="flex j-content-center w-500 m-auto border rounded pb-2">
+      <div id="container-for-list" class="flex j-content-center w-500 m-auto border rounded pb-2">
 
-        <div class="flex border-bottom border-dark mt-3 mb-3 h-30 px-4">
 
-          <div class="me-2">
-            <p>Banane</p>
-          </div>
-          
-          <div>
-            <button type="submit" class="border border-0 bg-white text-danger mb-3 fw-bold">X</button>
-          </div>
-
-        </div>
-
-        <div class="flex border-bottom border-dark mt-3 mb-3 h-30 px-4">
-
-          <div class="me-2">
-            <p>Banane</p>
-          </div>
-          
-          <div>
-            <button type="submit" class="border border-0 bg-white text-danger mb-3 fw-bold">X</button>
-          </div>
-
-        </div>
-
-        <div class="flex border-bottom border-dark mt-3 mb-3 h-30 px-4">
-
-          <div class="me-2">
-            <p>Banane</p>
-          </div>
-          
-          <div>
-            <button type="submit" class="border border-0 bg-white text-danger mb-3 fw-bold">X</button>
-          </div>
-
-        </div>
-
-        <div class="flex border-bottom border-dark mt-3 mb-3 h-30 px-4">
-
-          <div class="me-2">
-            <p>Banane</p>
-          </div>
-          
-          <div>
-            <button type="submit" class="border border-0 bg-white text-danger mb-3 fw-bold">X</button>
-          </div>
-
-        </div>
 
       </div>
         
